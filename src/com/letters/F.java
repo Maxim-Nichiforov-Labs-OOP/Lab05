@@ -7,4 +7,15 @@ public class F extends E {
         super(str);
         this.f = str;
     }
+
+    public F() {
+        this.f = "f";
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nF{" +
+                "f='" + f + '\'' +
+                '}';
+    }
 }
