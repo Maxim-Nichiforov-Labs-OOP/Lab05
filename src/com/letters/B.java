@@ -1,10 +1,12 @@
 package com.letters;
 
 public class B extends A {
-    public String b;
+    protected String b;
 
     public B(String str) {
+        super();
         this.b = str;
+
     }
 
     public B() {
@@ -15,6 +17,7 @@ public class B extends A {
     public String toString() {
         return super.toString() + "\nB{" +
                 "b='" + b + '\'' +
+                ", x=" + x +
                 '}';
     }
 }

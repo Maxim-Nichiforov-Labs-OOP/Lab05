@@ -1,7 +1,8 @@
 package com.letters;
 
 public class D extends C {
-    public String d;
+    protected String d;
+    public X x = new X("another initial value");
 
     public D(String str) {
         super();
@@ -16,6 +17,7 @@ public class D extends C {
     public String toString() {
         return super.toString() + "\nD{" +
                 "d='" + d + '\'' +
+                ", x=" + x +
                 '}';
     }
 }

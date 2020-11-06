@@ -1,7 +1,8 @@
 package com.letters;
 
 public class H extends G {
-    public String h;
+    protected String h;
+    private X x = new X("another another initial value");
 
     public H(String str) {
         super();
@@ -16,6 +17,7 @@ public class H extends G {
     public String toString() {
         return super.toString() + "\nH{" +
                 "h='" + h + '\'' +
+                ", x=" + x +
                 '}';
     }
 }

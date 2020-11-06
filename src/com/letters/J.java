@@ -1,7 +1,7 @@
 package com.letters;
 
 public class J extends I {
-    public String j;
+    protected String j;
 
     public J(String str) {
         super();
@@ -16,6 +16,7 @@ public class J extends I {
     public String toString() {
         return super.toString() + "\nJ{" +
                 "j='" + j + '\'' +
+                ", x=undefined" +
                 '}';
     }
 }

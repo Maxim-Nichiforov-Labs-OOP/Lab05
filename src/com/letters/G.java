@@ -1,7 +1,7 @@
 package com.letters;
 
 public class G extends F {
-    public String g;
+    protected String g;
 
     public G(String str) {
         super();
@@ -16,6 +16,7 @@ public class G extends F {
     public String toString() {
         return super.toString() + "\nG{" +
                 "g='" + g + '\'' +
+                ", x=" + x +
                 '}';
     }
 }

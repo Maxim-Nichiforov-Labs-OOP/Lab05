@@ -20,7 +20,11 @@ public class Main {
         letters.add(new I());
         letters.add(new J());
 
-        System.out.println(letters.get(9));
+        for (Object letter:
+             letters) {
+            System.out.println(letter.toString());
+            System.out.println(" ------------------------------------- ");
+        }
 
     }
 }
